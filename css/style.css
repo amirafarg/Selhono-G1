@@ -1,0 +1,324 @@
+/* the part-amira-farag-start */
+
+/* reset-start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+ul {
+    margin-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
+
+:root {
+    /* colors */
+    --gray:#F4F0EC;
+    --dark-black:#292F36;
+    --black:#4D5053;
+    --brown:#CDA274;
+
+    /* fonts-family */
+    --dm-serif-display:'DM Serif Display';
+    --jost:'Jost';
+}
+/* reset-end */
+
+/* desk-top */
+
+/* section-1 */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.h2-article {
+    color: var(--dark-black);
+    font-family: var(--dm-serif-display);
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.07rem;
+}
+
+.p-article {
+    color: var(--black);
+    font-family: var(--jost);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0.01rem;
+}
+
+.many-articles {
+    display: flex;
+    gap:2rem ;
+    margin-top: 3rem;
+}
+
+/* .col-4 {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 12 * 4);
+} */
+
+.img-art {
+    width: 12rem;
+    height: 10rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articles {
+    padding: 0.5rem 0.3rem;
+    border-radius: 1.5rem;
+    border: 1px solid #E7E7E7;
+    position: relative;
+    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+}
+
+.active {
+    background-color: var(--gray);
+}
+
+.h6-arti {
+    color: white;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+    background: rgba(0, 0, 0, 0.50);
+    padding: 0.5rem;
+    text-align: center;
+    font-family: var(--jost);
+    font-style: normal;
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.001rem;
+    position: absolute;
+    top: 8.1rem;
+    left: 0.9rem;
+}
+
+.p-arti {
+    color: var(--dark-black);
+    text-align: start;
+    font-family: var(--dm-serif-display);
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 115%;
+    letter-spacing: 0.003rem;
+    padding: 0.6rem;
+}
+
+.end-arti-h6 {
+    color: var(--black);
+    font-family: var(--jost);
+    font-style: normal;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.01rem;
+    text-align: start;
+    padding: 0.6rem;
+}
+
+.right {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 0.7rem;
+}
+
+/* sectin-2 */
+.sec-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/end-back-ground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 2rem;
+    background-position: center;
+}
+
+.h2-join {
+    color: white;
+    font-family: var(--dm-serif-display);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    margin-top: 2.3rem;
+}
+
+.h6-join {
+    color: white;
+    font-family: var(--jost);
+    font-size: 0.5rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 120%;
+    letter-spacing: 0.01rem;
+    margin-top: 0.3rem;
+}
+
+.end-btn {
+    margin-top: 0.9rem;
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--jost);
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+    letter-spacing: 0.01rem;
+    background-color: var(--brown);
+    padding: 0.8rem 0.7rem;
+    border-radius: 0.6rem;
+    box-shadow: 0px 10px 20px 0px #1F2022;
+}
+
+.right-go {
+    width: 0.6rem;
+    height: 0.5rem;
+}
+
+/* footer */
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.flex-footer {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+}
+
+.div-logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.3rem;
+}
+
+.logo-footer {
+    width: 10rem;
+    height: 2rem;
+}
+
+.p-footer {
+    color: var(--black);
+    font-family: var(--jost);
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.01rem;
+}
+
+.list-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.list-icons a img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.div-pages, .div-services, .div-Contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.6rem;
+}
+
+.ul-link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+}
+
+.h6-active {
+    color: var(--dark-black);
+    font-family: var(--dm-serif-display);
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+.a-link {
+    color: var(--black);
+    font-family: var(--jost);
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.01rem;
+}
+
+.p-adress, .email, .tel, .the-end {
+    color: var(--black);
+    font-family: var(--jost);
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.01rem;
+}
+
+/* mobile */
+@media screen and (max-width:720px) {
+   .many-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+   } 
+
+   .flex-footer {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+   }
+
+   /* .ul-link {
+    display: none;
+   } */
+}
+/* the part-amira-farag-end */
