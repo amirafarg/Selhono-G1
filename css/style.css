@@ -1,4 +1,29 @@
 /*israa*/
+@media (max-width:800px){
+   .h4{
+    width: 400px;
+    text-align: center;
+    font-size: 40px !important;
+   }
+   .p-follow{
+    font-size: 20px !important;
+    width: 430px !important;
+   }
+    .col-6{
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+    .counter{
+        flex-direction: column;
+        margin: 2rem !important;
+
+    }
+    hr{
+        width: 50% !important;
+        height: 1vh !important;
+    }
+}
 /*region reset*/
 *{
     box-sizing: border-box;
@@ -46,23 +71,21 @@ ul ,a{
     
 }
 .p-follow{
-    font-size: 29px;
+    font-size: 30px;
     font-weight: 400;
     text-align: center;
     color: var(--grey);
-    width: 55%;
-    font-family: 'Jost';
-}
-.col-12{
-    display: flex;
+    width: 57%;
+    font-family: "Jost", sans-serif;
 }
 .col-6{
     width: calc(100% / 12* 6);
     display: flex;
+    gap:20px;
 }
 .modern-ul{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 .modern-li{
@@ -70,6 +93,7 @@ ul ,a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 .modern-img{
     display: flex;
@@ -77,7 +101,7 @@ ul ,a{
     justify-content: center;
 }
 .modern-img img ,.sub-content{
-    width: 75%;
+    width: 100%;
 }
 .sub-content{
     display: flex;
@@ -87,14 +111,23 @@ ul ,a{
 .modern-p{
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--black);
 }
+.sub-content a{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 .modern-p span{
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 400;
     color: var(--grey);
+    font-family: "Jost", sans-serif;
+}
+.a-img{
+    width: 75%;
 }
 /*endregion follow*/
 
@@ -105,7 +138,7 @@ ul ,a{
     align-items: center;
     justify-content: center;
     gap: 65px;
-    margin: 5rem 0;
+    margin: 10rem 0;
 }
 .p-counter{
     display: flex;
@@ -123,9 +156,10 @@ ul ,a{
     font-size: 17px;
     font-weight: 400;
     color: var(--grey);
+    font-family: "Jost", sans-serif;
 }
 hr{
-    height: 30vh;
+    height: 20vh;
     background-color: var(--yellow);
     width: 2px;
     border: 1px;
