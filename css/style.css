@@ -1,0 +1,132 @@
+/*israa*/
+/*region reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'DM Serif Display';
+}
+ul ,a{
+    list-style: none;
+    text-decoration: none;
+}
+/*endregion reset*/
+:root{
+    /*color*/
+    --black:#292F36;
+    --grey:#4D5053;
+    --yellow:#CDA274;
+}
+
+/*region container*/
+.container{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*endregion container*/
+.bed-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 5rem;
+}
+/*region follow*/
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.h4{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--black);
+    font-family: "DM Serif Display", serif;
+    
+}
+.p-follow{
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--grey);
+    width: 55%;
+    font-family: 'Jost';
+}
+.col-12{
+    display: flex;
+}
+.col-6{
+    width: calc(100% / 12* 6);
+    display: flex;
+}
+.modern-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.modern-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modern-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modern-img img ,.sub-content{
+    width: 75%;
+}
+.sub-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modern-p{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--black);
+}
+.modern-p span{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--grey);
+}
+/*endregion follow*/
+
+/*region counter*/
+.counter{
+    display: flex;
+    /* width: calc(100% / 12* 4); */
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    margin: 5rem 0;
+}
+.p-counter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.num{
+    font-size: 85px;
+    font-weight: 400;
+    color: var(--yellow);
+}
+.text{
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--grey);
+}
+hr{
+    height: 30vh;
+    background-color: var(--yellow);
+    width: 2px;
+    border: 1px;
+}
