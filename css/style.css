@@ -130,3 +130,123 @@ hr{
     width: 2px;
     border: 1px;
 }
+/*mariam*/
+body{
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.a-home{
+    color: #C76904;
+    font-family: 'Jost';
+}
+.a-2{
+    color: #292F36;
+    font-family: 'Jost';
+}
+h4{
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+section{
+    background-image: url(../img/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 60px;
+    font-family: "DM Serif Display", serif;
+}
+/*button*/
+.get-started{
+    color: white;
+    background: #CDA274;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Jost';
+    margin-top: 50px;
+}
+.read-more{
+    border: none;
+    background: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: 'Jost';
+}
+/*div*/
+.divs-p{
+    display: flex;
+    justify-content: space-around;
+}
+.div-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+/*svg*/
+.logo{
+    width: 150px;
+}
+.search{
+    display: flex;
+    align-self: center;
+    margin-left: 25px;
+}
+/*p*/
+.p-1{
+    color: white;
+    margin-left: 60px;
+    font-family: 'Jost';
+}
+.p-variations{
+    text-align: center;
+    font-family: 'Jost';
+}
+/*screen*/
+@media screen and (max-width:800px) {
+    nav{
+        display: none;
+    }
+    section{
+        width: 100%;
+    }
+    .divs-p{
+        display: block;
+    }
+    .div-p{
+         width: 100%;
+         margin: 50px 0;
+    }
+}
